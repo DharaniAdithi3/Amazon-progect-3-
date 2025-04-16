@@ -1,0 +1,61 @@
+.main{
+    margin-top:90px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:850px;
+    margin-bottom: 50px;
+}
+.order-link{
+    color:rgb(45, 164, 255);
+}
+.arriving-para{
+    font-family: Roboto;
+    font-weight:bold;
+    font-size: 25px;
+}
+.socks-img{
+    width:140px;
+    margin-bottom:20px;
+}
+.flex-track{
+    display:flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+}
+@media(max-width:800px)
+{
+.flex-track{
+    display:flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+}
+.main{
+    margin-top:90px;
+    margin-left:20px;
+    margin-right:20px;
+}
+}
+.progress-container{
+   height: 25px; 
+   border: 1px solid rgb(200, 200, 200);
+   border-radius: 50px;
+   /* overflow: hidden;  */
+   /* border:1px solid black ; */
+   margin-top:-1px;
+}
+.shipped-para{
+    color:rgb(3, 173, 136);
+}
+.progress-bar{
+    width:280px;
+    background-color:green;
+    height: 25px;
+    /* background-color: green; */
+    border-radius: 50px;
+    /* width: 50%; */
+}
+

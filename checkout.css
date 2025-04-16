@@ -1,0 +1,232 @@
+.main{
+    font-family: Roboto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.split-2{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    margin-left:50px;
+    margin-right:50px;
+    column-gap: 15px;
+    grid-template-rows: auto auto;
+
+}
+@media(max-width:1000px)
+{
+    .split-2{
+        grid-template-columns: 1fr;
+    }
+}
+.header-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;;
+    text-align: center;
+    margin-bottom:80px;
+}
+.product-grid
+{
+    border:1px solid rgb(222, 222, 222);
+    display: grid;
+    grid-template-rows: auto 450px;
+    margin-bottom: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    max-width: 690px;
+}
+@media(min-width:1000px)
+{
+    .product-grid{
+     grid-template-rows:1fr 300px ; 
+    }
+}
+.amazon-img{
+    width:100px;
+}
+.logo{
+    display:none;
+}
+@media(max-width:580px)
+{
+    .amazon-img{
+        display:none;
+    }
+    .logo{
+        display:block;
+        width:35px;
+    }
+}
+@media(max-width:500px)
+{
+     .socks-grid{
+        display: grid;
+        grid-template-columns: 120px 1fr;
+     }
+     
+}
+.checkout-para{
+    font-family: Roboto;
+    font-size:20px;
+    font-weight:500;
+    text-align: center;
+    margin-top:5px;
+}
+.item-span{
+    color:rgb(27, 85, 129)
+}
+.lock-img{
+    margin-top:-10px;
+}
+
+
+.review-para{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.delivery-date{
+    /* font-family:Roboto; */
+    font-weight:bold;
+    font-size:20px;
+    color:green;
+}
+.socks-grid{
+    display:grid;
+    grid-template-columns: 120px 1fr 1fr;
+    /* align-items: center; */
+    text-align: top;
+    
+}
+@media(max-width:1000px)
+{
+     
+ .socks-grid{
+        grid-template-columns: 120px 1fr;
+        /* width:500px;
+         grid-column: 2; */
+         row-gap:30px;
+     }
+}
+.socks-img{
+    width:100px;
+    margin-top:10px;
+}
+.description-para{
+    font-weight:bold;
+    margin-top:5px;
+}
+.rate{
+    color:rgb(177, 39, 4);
+    font-weight:bold;
+}
+.quantity-flex{
+    display:flex;
+    margin-top:-25px;
+    column-gap: 5px;
+}
+.add{
+    color:rgb(1, 124, 182);
+}
+.choose-para{
+    font-weight: bold;
+    font-size:16px;
+    margin-top:5px;
+    margin-left:15px;
+    width:200px;
+}
+.option-grid{
+    display:grid;
+    grid-template-columns: 24px 200px;
+    align-items: center;
+    column-gap: 15px;
+    line-height: 5px;
+}
+/* @media (max-width:1000px) {
+    .option-grid{
+    grid-column: 1/span 2;
+    }
+} */
+.radio-option{
+    width: 20px;               /* Adjust the width */
+    height: 20px;
+  }
+.shipping-day{
+    color:green;
+    font-weight: 600;
+}
+.shipping-cost{
+    color: rgb(120, 120, 120); 
+}
+
+.grid{
+    /* margin-left: 25px; */
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family: Roboto;
+    border:1px solid rgb(222, 222, 222);
+    margin-right:25px;
+    grid-column: 2;
+    
+    /* margin-left:-50px; */
+    
+}
+@media(max-width:1000px)
+{
+    .grid{
+        
+        /* display: block; */
+        grid-row: 1;
+        /* row-gap: 50px; */
+    }
+}
+.summary-para{
+    font-family: Roboto;
+    font-weight:600;
+    font-size: 18px;
+}
+.grid-1{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom:-20px;
+}
+.grid-2{
+    border-bottom:1px solid rgb(222, 222, 222);
+    display:grid;
+    grid-template-columns: 1fr auto;
+}
+.top-border{
+    border-top: 1px solid rgb(222, 222, 222);
+    line-height:30px;
+ }
+ .order-total,.rate-total{
+    color: rgb(177, 39, 4);
+    font-size:18px;
+    font-weight: 600;
+}
+.order-button{
+    /* margin-top:20px;
+    margin-left:50px;
+    padding-left:;
+    padding-right:50%; */
+    width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+
+  margin-top: 11px;
+  margin-bottom: 15px;
+  border-style:none;
+  background-color: rgb(255, 216, 20);
+  font-family: Roboto;
+  cursor: pointer;
+}
+.order-button:hover{
+    background-color: rgb(233, 198, 20);
+}

@@ -1,0 +1,145 @@
+.header{
+  background-color:#131921;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  height:60px;
+  display:flex;
+  align-items:center;
+  padding-left:15px;
+  padding-right:15px;
+  color:white;
+  justify-content: space-between;
+}
+.left-section{
+   width:180px;
+}
+.amazon-logo{
+  width:100px;
+  padding-top:3px;
+}
+.logo{
+  display:none;
+}
+@media(max-width:580px){
+  .logo{
+    display:block;
+    width:34px;
+    padding-top:3px;
+  }
+  .amazon-logo{
+    display:none;
+  }
+  }
+ .left-link{
+    display:inline-block;
+    padding-top:8px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+  }
+  .left-link:hover{
+    border:1px solid white;
+    border-radius:2px;
+  }
+  .middle-section{
+    display:flex;
+    align-items:center;
+    max-width:850px;
+    flex:1;
+    margin-left:6px;
+  }
+  .search-box{
+    font-family:arial,Roboto;
+    padding:11px;
+    flex:1;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+    font-size:15px;
+    border:solid;
+    width:0;
+    margin-right:-1px;
+    /* flex-shrink:0; */
+  }
+  .search-icon{
+    width:22px;
+  }
+  .search-button{
+    height:40px;
+    width:45px;
+    border:none;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    background-color: rgb(254,189,105);
+    margin-left:-1px;
+  }
+    @media(max-width:800px)
+  {
+    .left-section{
+      width:unset;
+    }
+  }  
+  /* .hamburger{
+    display:none;
+  }
+  @media(max-width:580px)
+  {
+    .hamburger{
+      display:block;
+      margin-left:15px;
+      cursor:pointer;
+    }
+    .header-returns{
+      display:none;
+    }
+  } */
+    .right-section{
+    width:180px;
+    flex-shrink: 0;
+    display: flex;
+    /* margin-left:1px; */
+    align-items: center; 
+    justify-content:end;
+   }
+   .returns-link{
+    font-family:Roboto;
+    color:white;
+    text-decoration:none;
+  }
+   .span-orders{
+    display:block;
+    font-weight:bold;
+    font-size:15px;
+    width:60px;
+   
+  } 
+   .span-returns{
+    font-size:13px;
+    display:block;
+  } 
+  
+    .cart-link{
+    display:flex;
+    align-items:center;
+    position:relative;
+    height:40px;
+     
+  }
+  .basket{
+    width:50px;
+    
+  }
+  .quantity{
+    position:absolute;
+    top:-5px;
+    left:30px;
+    color:#F08804;
+    font-size:15px;
+    font-weight:bold;
+  }  
+  .cart-text {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 700;
+  }
